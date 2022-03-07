@@ -1,0 +1,50 @@
+body {
+    background-color: #d8eefe;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #094067;
+}
+
+p {
+    color: #5f6c7b;
+}
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+nav {
+    display : flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 2px;
+    background-color: #4fc4cf;
+}
+.parent {
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.visual {
+    height: 100px;
+    width: 100%;
+  }
+
+.card {
+    background-color: #fffffe;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+
+h3 {
+    margin: 0
+  }
