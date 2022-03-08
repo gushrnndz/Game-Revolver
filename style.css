@@ -1,19 +1,21 @@
 body {
-    background-color: #f9f4ef;
+    background-color: #271c19;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #020826;
+    color: #fffffe;
 }
 
 p {
-    color: #716040;
+    color: #fff3ec;
 }
 main {
     max-width: 700px;
     margin: 0 auto;
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
 nav {
     display : flex;
@@ -21,12 +23,19 @@ nav {
     margin-bottom: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #e78fb3;
+    margin: 25px auto;
+}
+
 nav a {
     text-decoration: none;
     margin: 2px;
-    background-color: #8c7851;
-    color: #fffffe;
+    background-color: #ffc0ad;
+    color: #140d0b;
     padding: 4px 6px;
+    border-radius: 2px;
 }
 .parent {
     height: auto;
@@ -36,12 +45,14 @@ nav a {
   }
 
 .visual {
-    height: 100px;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
   }
 
 .card {
-    background-color: #fffffe;
+    border-radius: 2px;
+    background-color: #55423d;
     display: flex;
     flex-direction: column;
     padding: 1rem;
