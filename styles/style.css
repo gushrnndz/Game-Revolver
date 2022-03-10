@@ -10,6 +10,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
     color: #716040;
 }
+
+a {
+    color: #f25042;
+    text-decoration: none;
+}
 main {
     max-width: 700px;
     margin: 0 auto;
@@ -23,11 +28,7 @@ nav {
     margin: 10px auto;
 }
 
-.developer {
-    color: #f25042;
-}
-
-a {
+.button {
     text-decoration: none;
     color: #020826;
     margin: 20px auto 10px;
@@ -36,10 +37,11 @@ a {
     padding: 10px;
 }
 
-a:hover {
+.button:hover {
     background-color: #8c7851;
     color: #fffffe;
   }
+
 
 nav a {
     border: none;
